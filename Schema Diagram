@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.3.0">
   <diagram id="q_Ai267mNeh1Cilp6SWj" name="Page-1">
-    <mxGraphModel dx="1797" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1756" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,7 +9,7 @@
             <mxRectangle x="-740" y="100" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lq9K3AqOA8nXse5Mug8t-2" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;password: String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-1">
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-2" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;role : String&lt;/li&gt;&lt;li&gt;password: String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-1">
           <mxGeometry y="26" width="180" height="124" as="geometry" />
         </mxCell>
         <mxCell id="lq9K3AqOA8nXse5Mug8t-5" value="Feedback" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
@@ -73,6 +73,32 @@
             <Array as="points">
               <mxPoint x="-840" y="157" />
               <mxPoint x="-840" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-27" value="Admin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="600" width="180" height="150" as="geometry">
+            <mxRectangle x="-740" y="100" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-28" value="&lt;ul&gt;&lt;li&gt;admin_id: objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;admin_code : String&lt;/li&gt;&lt;li&gt;password: String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-27">
+          <mxGeometry y="26" width="180" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-29" value="ChordImages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="860" width="205" height="110" as="geometry">
+            <mxRectangle x="-740" y="100" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-30" value="&lt;ul&gt;&lt;li&gt;admin_id: objectId&lt;/li&gt;&lt;li&gt;chord_images_id: String&lt;/li&gt;&lt;li&gt;chords : Map as String&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-29">
+          <mxGeometry y="26" width="205" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-32" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=1;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lq9K3AqOA8nXse5Mug8t-27" target="lq9K3AqOA8nXse5Mug8t-30">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-530" y="830" as="sourcePoint" />
+            <mxPoint x="-50" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="610" />
+              <mxPoint y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
