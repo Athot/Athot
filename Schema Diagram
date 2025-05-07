@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.3.0">
   <diagram id="q_Ai267mNeh1Cilp6SWj" name="Page-1">
-    <mxGraphModel dx="1892" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1797" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,43 +13,35 @@
           <mxGeometry y="26" width="180" height="124" as="geometry" />
         </mxCell>
         <mxCell id="lq9K3AqOA8nXse5Mug8t-5" value="Feedback" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="100" width="180" height="150" as="geometry">
+          <mxGeometry x="-350" y="100" width="180" height="190" as="geometry">
             <mxRectangle x="-740" y="100" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lq9K3AqOA8nXse5Mug8t-6" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;password: String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-5">
-          <mxGeometry y="26" width="180" height="124" as="geometry" />
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-6" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;feedback_id: objectId&lt;/li&gt;&lt;li&gt;phone_no : String,&lt;/li&gt;&lt;li&gt;photo : String,&lt;/li&gt;&lt;li&gt;description : String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-5">
+          <mxGeometry y="26" width="180" height="164" as="geometry" />
         </mxCell>
         <mxCell id="lq9K3AqOA8nXse5Mug8t-7" value="VocalGenerate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="360" width="180" height="150" as="geometry">
+          <mxGeometry x="-740" y="360" width="180" height="160" as="geometry">
             <mxRectangle x="-740" y="100" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lq9K3AqOA8nXse5Mug8t-8" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;password: String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-7">
-          <mxGeometry y="26" width="180" height="124" as="geometry" />
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-8" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;vocal_id: objectId&lt;/li&gt;&lt;li&gt;fileUrl : String&lt;/li&gt;&lt;li&gt;title: String&lt;/li&gt;&lt;li&gt;language:String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-7">
+          <mxGeometry y="26" width="180" height="134" as="geometry" />
         </mxCell>
         <mxCell id="lq9K3AqOA8nXse5Mug8t-9" value="Videos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-350" y="360" width="180" height="150" as="geometry">
             <mxRectangle x="-740" y="100" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lq9K3AqOA8nXse5Mug8t-10" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;password: String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-9">
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-10" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;video_id: objectId&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-9">
           <mxGeometry y="26" width="180" height="124" as="geometry" />
         </mxCell>
         <mxCell id="lq9K3AqOA8nXse5Mug8t-11" value="GuitarGenerate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="610" width="180" height="150" as="geometry">
+          <mxGeometry x="-560" y="610" width="180" height="150" as="geometry">
             <mxRectangle x="-740" y="100" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lq9K3AqOA8nXse5Mug8t-12" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;password: String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-11">
-          <mxGeometry y="26" width="180" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="lq9K3AqOA8nXse5Mug8t-13" value="Videos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="610" width="180" height="150" as="geometry">
-            <mxRectangle x="-740" y="100" width="70" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lq9K3AqOA8nXse5Mug8t-14" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;username : String&lt;/li&gt;&lt;li&gt;email : String&lt;/li&gt;&lt;li&gt;password: String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-13">
+        <mxCell id="lq9K3AqOA8nXse5Mug8t-12" value="&lt;ul&gt;&lt;li&gt;user_id : objectId&lt;/li&gt;&lt;li&gt;guitar_id: objectId&lt;/li&gt;&lt;li&gt;fileUrl : String&lt;/li&gt;&lt;li&gt;title: String&lt;/li&gt;&lt;li&gt;language:String&lt;/li&gt;&lt;li&gt;created_at: dataeTime&lt;/li&gt;&lt;li&gt;updated_at : dateTime&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="lq9K3AqOA8nXse5Mug8t-11">
           <mxGeometry y="26" width="180" height="124" as="geometry" />
         </mxCell>
       </root>
